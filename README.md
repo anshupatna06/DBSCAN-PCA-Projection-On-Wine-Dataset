@@ -151,8 +151,8 @@ A higher  S (close to 1) means better separation and cohesion.
 
 Version           	ε	            minPts	   Clusters Found	              Silhouette Score
 
-Scratch DBSCAN	   0.6	           6	         ~3	                           0.013
-sklearn.DBSCAN	   0.6	           6	         ~3	                           0.013
+Scratch DBSCAN	   0.6	   ,        6	,         ~3	 ,                          0.013.
+sklearn.DBSCAN	   0.6	    ,       6	 ,        ~3	  ,                         0.013.
 
 
 ✅ The scratch implementation performs comparably to the sklearn version, proving correctness and robustness.
